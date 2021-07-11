@@ -25,11 +25,9 @@ hr {
   margin-bottom: 27px;
 }
 
-
-  /* -------------------------------------- 
+/* -------------------------------------- 
                 nav bar styles
      --------------------------------------*/
-
 
 .header {
   color: #fff;
@@ -56,8 +54,8 @@ hr {
   font-size: 24px;
   font-weight: 500;
 }
-nav{
-    margin-right: 30px;
+nav {
+  margin-right: 30px;
 }
 nav ul {
   display: flex;
@@ -66,15 +64,14 @@ nav ul {
   list-style-type: none;
 }
 nav li {
-
-  margin-right: 36px ;
+  margin-right: 36px;
 }
 nav li a {
   color: #fff;
   font-size: 1em;
   text-decoration: none;
 }
-nav ul li a img{
+nav ul li a img {
   width: 51px;
   height: 51px;
 }
@@ -82,7 +79,6 @@ nav ul li a img{
 /* --------------------------------------
              top players style 
   ----------------------------------------*/
-
 
 .top-players {
   margin-bottom: 30px;
@@ -149,13 +145,12 @@ nav ul li a img{
                courses style 
  ------------------------------------ */
 
-.courses{
+.courses {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 24px;
-  
 }
-.course{
+.course {
   filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
 }
 .course .course-banner img {
@@ -188,3 +183,11 @@ nav ul li a img{
   background: #ffe4e8;
   border-radius: 15px;
 }
+/*-------------------------------------- 
+            Media Queries 
+-----------------------------------------*/
+
+ /* ---------------------
+      Mobile devices
+  ------------------- */
+    
