@@ -43,7 +43,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  
 }
 .logo-area img {
   width: 41px;
@@ -55,7 +55,7 @@ hr {
   font-weight: 500;
 }
 nav {
-  margin-right: 30px;
+  
 }
 nav ul {
   display: flex;
@@ -92,7 +92,7 @@ nav ul li a img {
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 30px;
+  grid-row-gap: 30px;    
 }
 .player {
   display: flex;
@@ -183,6 +183,62 @@ nav ul li a img {
   background: #ffe4e8;
   border-radius: 15px;
 }
+
+/* ---------------------------------------------------------------
+                             footer area
+  --------------------------------------------------------------- */
+  footer{
+    
+  }
+.dark-footer{
+  width: 100%;
+  height: auto;
+   background-color: #000; 
+   margin-top: 50px;
+}
+.about-company{
+   display: grid;
+   justify-content: center;
+   grid-template-columns: 30% 30% 30%;
+   margin-bottom: 20px;
+   padding-top: 30px;
+  
+    
+}
+.list h2{
+  color: #fff;
+}
+ .list ul{
+      list-style-type:none;
+      padding: 0;
+
+}
+.list li a{
+  color: #9f9f9fa8;
+  text-decoration: none;
+}
+.list li a:hover{
+  opacity: 0.8;
+}
+.list p{
+   color: #9f9f9fa8;
+}
+.copyright-area{
+  color: #9f9f9f;
+  text-align: center;
+}
+.social-media{
+  font-size: 35px;
+  
+}
+.social-media a{
+  margin-right: 10px;
+}
+.copyright-text{
+   color: #9f9f9fa8;
+   padding-bottom: 50px;
+}
+
 /*-------------------------------------- 
             Media Queries 
 -----------------------------------------*/
